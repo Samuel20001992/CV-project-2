@@ -8,7 +8,7 @@ from lime import lime_image
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = load_model('model.h5')  # Change 'your_model.h5' to the path of your trained model file
+model = load_model('model.h5')  
 
 # Define image dimensions expected by the model
 img_width, img_height = 150, 150
